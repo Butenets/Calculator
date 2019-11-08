@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'OPTICalculator'; /* Имя шрифта */
+    src: url('OPTICalculator.otf'); /* Путь к файлу со шрифтом */
+   }
+.calc{
+	width: 20vw;
+	height: 50vh;
+	border: 1px solid grey;
+	background-color: black;
+	border-radius: 10%;
+	box-shadow: 0 0 10px black;
+}
+.header{
+	height: 7%;
+	width: 100%;
+}
+.display{
+height: 20%;
+width: 90%;
+background-color: grey;
+margin-left:5%;
+font-family: 'OPTICalculator';
+
+}
+.numpad{
+	height: 65%;
+	margin: 2.5%;
+border: 1px solid black;
+	
+}
+.row{
+	height: 25%;
+	width: 100%;
+	display: inline-block;
+}
+.num{
+	width: 24%;
+	height: 95%;
+	float: left;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: x-large;
+	border-radius: 50%;
+	color: white;
+	margin-left: 1%;
+}
+.num:hover{
+	box-shadow: 0 0 10px coral;
+	background-color: coral;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
+}
