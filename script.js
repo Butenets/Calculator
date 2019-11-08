@@ -1,7 +1,7 @@
 function test(num_znaz){
     document.getElementById("test").innerHTML += num_znaz;
     osnova();
-};
+}
 function ravno(num_znaz){
     document.getElementById("test").innerHTML += num_znaz;
     osnova();
@@ -44,3 +44,11 @@ addEventListener("keydown", function (e){
     }
     }
     }
+    function closecal(){
+        document.getElementsByClassName("toogle_calc")[0].style.display = "inline-block";
+        document.getElementsByClassName("calc")[0].style.display = "none";
+     }
+     function opencal(){
+        document.getElementsByClassName("toogle_calc")[0].style.display = "none";
+        document.getElementsByClassName("calc")[0].style.display = "inline-block";
+     }

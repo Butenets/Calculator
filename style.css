@@ -2,6 +2,17 @@
     font-family: 'OPTICalculator'; /* Имя шрифта */
     src: url('OPTICalculator.otf'); /* Путь к файлу со шрифтом */
    }
+   .toogle_calc{
+	width: 10vw;
+	height: 10vh;
+	display: none;
+   }
+   .toogle_calc img{
+	width: 5vw;
+	height: 10vh;
+	cursor: pointer;
+   }
+   
 .calc{
 	width: 20vw;
 	height: 50vh;
@@ -13,6 +24,15 @@
 .header{
 	height: 7%;
 	width: 100%;
+	cursor: pointer;
+	opacity: 0.5;
+}
+.header img{
+	margin-right: 5%;
+	float: right;
+}
+.header:hover{
+	opacity: 1;
 }
 .display{
 height: 20%;
